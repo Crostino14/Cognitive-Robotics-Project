@@ -53,6 +53,7 @@ This project introduces an AI-powered robotic assistant designed for shopping ma
 │   │   │   ├── chatbot_test.py
 │   │   │   ├── face_detector_test.py
 ├── 📁 report/
+│   ├── ROSArchitecture.jpeg
 │   └── ReportGroup4.pdf
 ├── requirements.txt
 └── README.md
