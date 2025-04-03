@@ -1,0 +1,11 @@
+<launch>
+    <arg name="nao_ip" default="$(optenv NAO_IP 10.0.1.230)" />
+    <arg name="nao_port" default="$(optenv NAO_PORT 9559)" />
+
+    <node pkg="shopping_mall_assistant" type="wakeup_rest_node.py" name="wakeup_rest_node" required="true"
+          args="--ip=$(arg nao_ip) --port=$(arg nao_port)" output="screen" />
+    <node pkg="shopping_mall_assistant" type="animated_speech_node.py" name="animated_speech_node" required="true"
+          args="--ip=$(arg nao_ip) --port=$(arg nao_port)" output="screen" />
+    <node pkg="shopping_mall_assistant" type="animated_speech_test.py" name="animated_speech_test_node"
+          args="--ip=$(arg nao_ip) --port=$(arg nao_port)" output="screen" />
+</launch>

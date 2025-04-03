@@ -1,0 +1,13 @@
+<launch>
+        <arg name="node_start_delay" default="30.0"/>
+        <arg name="nao_ip" default="$(optenv NAO_IP 10.0.1.230)" />
+        <arg name="nao_port" default="$(optenv NAO_PORT 9559)" />
+        <arg name="mic_index" default="2" />
+        <!-- Launch Pepper Nodes -->
+        <node pkg="shopping_mall_assistant" type="wakeup_rest_node.py" name="wakeup_rest_node" required="true" args="--ip=$(arg nao_ip) --port=$(arg nao_port)" output="screen" />
+        <!-- Launch ASR Nodes -->
+        <node pkg="shopping_mall_assistant" type="voice_detection_node.py" name="voice_detection_node" args="--mic_index=$(arg mic_index)" output="screen" launch-prefix="gnome-terminal -- bash -c "/>
+        <node pkg="shopping_mall_assistant" type="asr_node.py" name="asr_node" output="screen"/>
+        <!-- Launch Audito Test Node -->
+        <node pkg="shopping_mall_assistant" type="audio_test.py" name="audio_test" output="screen" launch-prefix="bash -c 'sleep $(arg node_start_delay); $0 $@' "/>
+</launch>

@@ -1,0 +1,202 @@
+[
+    {
+        "input": "How many people are there in the shopping centre?",
+        "retrieval_context": "There are 15 people in the shopping centre"
+    },
+    {
+        "input": "How many people in the shopping centre are wearing a hat?",
+        "retrieval_context": "8 people are wearing a hat"
+    },
+    {
+        "input": "Who won the contest?",
+        "retrieval_context": "Group one won the contest"
+    },
+    {
+        "input": "Can you tell me group three's score?",
+        "retrieval_context": "Group three got a score of 0.787"
+    },
+    {
+        "input": "How many groups took part in the contest?",
+        "retrieval_context": "14 groups took part in the contest"
+    },
+    {
+        "input": "How many men are in the shopping centre?",
+        "retrieval_context": "There are 8 men in the shopping centre"
+    },
+    {
+        "input": "How many women are in the shopping centre?",
+        "retrieval_context": "There are 7 women in the shopping centre"
+    },
+    {
+        "input": "How many people in the shopping centre are carrying a bag?",
+        "retrieval_context": "8 people are carrying a bag"
+    },
+    {
+        "input": "How many people have visited the bar?",
+        "retrieval_context": "11 people have visited the bar"
+    },
+    {
+        "input": "How many people have been to the bookshop?",
+        "retrieval_context": "11 people have been to the bookshop"
+    },
+    {
+        "input": "How many people have visited the cinema?",
+        "retrieval_context": "12 people have visited the cinema"
+    },
+    {
+        "input": "How many people have been to the supermarket?",
+        "retrieval_context": "12 people have been to the supermarket"
+    },
+    {
+        "input": "Which group is in second place in the contest?",
+        "retrieval_context": "Group six is in second place"
+    },
+    {
+        "input": "Who is in last place in the contest?",
+        "retrieval_context": "Group eleven is in last place"
+    },
+    {
+        "input": "Which group came third in the contest?",
+        "retrieval_context": "Group eight came third in the contest"
+    },
+    {
+        "input": "What is the score of group five?",
+        "retrieval_context": "Group five got a score of 0.8"
+    },
+    {
+        "input": "How many members are in group one?",
+        "retrieval_context": "Group one has four members"
+    },
+    {
+        "input": "Who are the members of group three?",
+        "retrieval_context": "The members of group three are Marco Martelli, Andrea Marino, Alberto Marmo, and Alessandro Pasquale"
+    },
+    {
+        "input": "Which group has Giuseppe Marotta as a member?",
+        "retrieval_context": "Giuseppe Marotta is a member of group thirteen"
+    },
+    {
+        "input": "How many groups have a score above 0.75?",
+        "retrieval_context": "Six groups have a score above 0.75"
+    },
+    {
+        "input": "Which group scored 0.594?",
+        "retrieval_context": "Group two scored 0.594"
+    },
+    {
+        "input": "Which group ranked 7th?",
+        "retrieval_context": "Group twelve ranked 7th"
+    },
+    {
+        "input": "Which group ranked 10th?",
+        "retrieval_context": "Group fourteen ranked 10th"
+    },
+    {
+        "input": "How many men visited the bar exactly once?",
+        "retrieval_context": "3 men visited the bar exactly once"
+    },
+    {
+        "input": "Which woman visited the bar 3 times?",
+        "retrieval_context": "One woman visited the bar 3 times, and she does not wear a hat but does carry a bag"
+    },
+    {
+        "input": "How many female individuals visited the bar at least 2 times?",
+        "retrieval_context": "3 female individuals visited the bar at least 2 times"
+    },
+    {
+        "input": "How many men visited the cinema exactly once?",
+        "retrieval_context": "3 men visited the cinema exactly once"
+    },
+    {
+        "input": "How many men visited the supermarket more than 30 times?",
+        "retrieval_context": "3 men visited the supermarket more than 30 times"
+    },
+    {
+        "input": "How many men visited the bookshop at least once?",
+        "retrieval_context": "5 men visited the bookshop at least once"
+    },
+    {
+        "input": "How many women have at least 2 bar passages?",
+        "retrieval_context": "3 women have at least 2 bar passages"
+    },
+    {
+        "input": "Which man visited the bar 2 times but doesn't wear a hat?",
+        "retrieval_context": "The man who visited the bar 2 times and doesn't wear a hat is also the one who doesn't carry a bag"
+    },
+    {
+        "input": "How many people wearing hats did not visit the cinema?",
+        "retrieval_context": "2 people wearing hats did not visit the cinema"
+    },
+    {
+        "input": "Which women are wearing hats and carrying a bag?",
+        "retrieval_context": "2 women are wearing hats and carrying a bag"
+    },
+    {
+        "input": "How many men carry a bag but do not wear hats?",
+        "retrieval_context": "2 men carry a bag but do not wear hats"
+    },
+    {
+        "input": "How many female individuals visited the cinema exactly 2 times?",
+        "retrieval_context": "1 female visited the cinema exactly 2 times"
+    },
+    {
+        "input": "Which group does Chiara Ferraioli belong to?",
+        "retrieval_context": "Chiara Ferraioli is a member of group four"
+    },
+    {
+        "input": "Which group does Ciro Setolino belong to?",
+        "retrieval_context": "Ciro Setolino is a member of group eight"
+    },
+    {
+        "input": "Which group placed directly after group two in the ranking?",
+        "retrieval_context": "Group thirteen placed directly after group two"
+    },
+    {
+        "input": "How many groups have a score between 0.8 and 0.9?",
+        "retrieval_context": "Three groups have a score between 0.8 and 0.9"
+    },
+    {
+        "input": "Which group has the best ranking among those that have three members?",
+        "retrieval_context": "Among those groups that have three members, group twelve has the best ranking"
+    },
+    {
+        "input": "Among the top 3 groups, which one has Ciro as a member?",
+        "retrieval_context": "Among the top 3 groups, group eight has Ciro as a member"
+    },
+    {
+        "input": "Which group has the worst ranking among those with a score between 0.5 and 0.7?",
+        "retrieval_context": "Among the groups with a score between 0.5 and 0.7, group four has the worst ranking"
+    },
+    {
+        "input": "Which group is the only one with three members?",
+        "retrieval_context": "Group twelve is the only group with three members"
+    },
+    {
+        "input": "How many groups have less than 4 members?",
+        "retrieval_context": "2 groups have less then 4 members"
+    },
+    {
+        "input": "How many total bookshop passages were made by men?",
+        "retrieval_context": "Men in the shopping centre made a total of 117 bookshop passages"
+    },
+    {
+        "input": "How many total cinema passages were made by women?",
+        "retrieval_context": "Women in the shopping centre made a total of 8 cinema passages"
+    },
+    {
+        "input": "Which group has the highest score among those that did not rank in the top 5?",
+        "retrieval_context": "Among those groups that did not rank in the top 5, group ten has the highest score"
+    },
+    {
+        "input": "How many men are wearing hats and have visited the bar at least once?",
+        "retrieval_context": "2 men are wearing hats and have visited the bar at least once"
+    },
+    {
+        "input": "How many women have visited both the cinema and the supermarket at least once?",
+        "retrieval_context": "5 women have visited both the cinema and the supermarket at least once"
+    },
+    {
+        "input": "How many total supermarket passages were made by people who wear a hat?",
+        "retrieval_context": "People who wear a hat made a total of 150 supermarket passages"
+    }
+]

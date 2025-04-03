@@ -1,0 +1,15 @@
+<launch>
+	<arg name="node_start_delay" default="10.0"/>
+	<arg name="nao_ip" default="$(optenv NAO_IP 10.0.1.207)" />
+	<arg name="nao_port" default="$(optenv NAO_PORT 9559)" />
+	<arg name="pepper_on" default="False"/>
+	<arg name="pepper_camera_on" default="False"/>
+	<!-- Launch People and Face Detector -->
+	<node pkg="shopping_mall_assistant" type="face_detector_node.py" name="face_detector_node" output="screen" launch-prefix="bash -c 'sleep $(arg node_start_delay); $0 $@' "/>
+	<node pkg="shopping_mall_assistant" type="visualization_node.py" name="visualization_node" output="screen" launch-prefix="bash -c 'sleep $(arg node_start_delay); $0 $@' "/>
+	<!-- Launch Pepper Nodes -->
+	<group if='$(eval pepper_on==True)'>
+		<node pkg="shopping_mall_assistant" type="wakeup_rest_node.py" name="wakeup_rest_node" required="true" args="--ip=$(arg nao_ip) --port=$(arg nao_port)" output="screen" />
+	</group>
+	<node pkg="shopping_mall_assistant" type="image_publisher_node.py" name="image_publisher_node" output="screen" args = "--pepper_camera_on=$(arg pepper_camera_on) --ip=$(arg nao_ip) --port=$(arg nao_port)" launch-prefix="bash -c 'sleep $(arg node_start_delay); $0 $@' "/>
+</launch>

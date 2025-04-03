@@ -1,0 +1,9 @@
+
+/devel/share/common-lisp/ros/features/srv
+/devel/share/gennodejs/ros/features/srv
+/devel/share/features/cmake
+/devel
+/build
+/.catkin_tools
+.catkin_workspace
+*.jpg
