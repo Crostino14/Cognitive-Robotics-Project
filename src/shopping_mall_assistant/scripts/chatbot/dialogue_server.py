@@ -32,7 +32,7 @@ class DialogueServer():
         rospy.Service('dialogue_server', Dialogue, self._handle_service)
         
         self.client = AzureOpenAI(
-            api_key="YOUR OPENAI EY",
+            api_key="YOUR OPENAI KEY",
             azure_endpoint="YOUR AZURE OPENAI ENDPOINT",
             api_version="2024-08-01-preview"
         )
